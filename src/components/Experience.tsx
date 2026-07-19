@@ -1,7 +1,7 @@
 const entries = [
   {
     initials: 'AH',
-    text: "John had been exceptional in his handling of enquiries relating to QLD Senior Maths resources. His emails were polite and helpful, and his responses were fast — he was switched on and knew his stuff really well. John should be recognised by his manager as being a fine ambassador for Pearson.",
+    text: "John had been exceptional in his handling of enquiries relating to QLD Senior Maths resources. His emails were polite and helpful, and his responses were fast; he was switched on and knew his stuff really well. John should be recognised by his manager as being a fine ambassador for Pearson.",
     name: 'Special Commendation',
     org: "Teacher, All Hallows' School (Brisbane) · APAC Customer Service Champions",
   },
@@ -13,13 +13,13 @@ const entries = [
   },
   {
     initials: 'TU',
-    text: 'Sustained a top-performer rating for 5 consecutive years with 100% policy compliance on high-stakes content — while completing an engineering degree at the same time.',
+    text: 'Sustained a top-performer rating for 5 consecutive years with 100% policy compliance on high-stakes content, all while completing an engineering degree.',
     name: 'Content Moderator',
     org: 'TaskUs · 2020–2025',
   },
   {
     initials: 'ECE',
-    text: "BS Electronics & Communications Engineering (Dean's Lister). Machine Learning Specialization — Stanford Online. Classification Methods with ML — MathWorks.",
+    text: "BS Electronics & Communications Engineering (Dean's Lister). Machine Learning Specialization (Stanford Online). Classification Methods with ML (MathWorks).",
     name: 'Education & Certifications',
     org: 'Technological Institute of the Philippines',
   },
