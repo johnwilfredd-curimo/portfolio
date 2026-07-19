@@ -16,8 +16,8 @@ export function Cta() {
           I'm available for freelance automation projects and collaborations.
         </p>
         <a
-          href="mailto:johnwilfreddcurimo@gmail.com"
-          className="rounded-full border border-[#f6f2eb]/60 px-7 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] transition-colors hover:bg-[#f6f2eb] hover:text-olive-deep"
+          href="mailto:johnwilfreddcurimo.freelance@gmail.com"
+          className="rounded-full border border-[#f6f2eb]/60 px-7 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] transition-all hover:bg-[#f6f2eb] hover:text-olive-deep active:scale-95"
         >
           Get in Touch
         </a>

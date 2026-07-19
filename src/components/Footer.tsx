@@ -1,4 +1,18 @@
+import { siUpwork } from 'simple-icons'
 import { LinkedInIcon, MailIcon, PinIcon } from './icons'
+
+const EMAIL = 'johnwilfreddcurimo.freelance@gmail.com'
+const LINKEDIN_URL = 'https://linkedin.com/in/john-wilfredd-curimo'
+// TODO: replace with the real Upwork profile URL
+const UPWORK_URL = '#'
+
+function UpworkIcon({ className = 'w-4 h-4' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d={siUpwork.path} />
+    </svg>
+  )
+}
 
 export function Footer() {
   return (
@@ -11,7 +25,7 @@ export function Footer() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide">John Wilfredd Curimo</p>
             <p className="mt-1 text-[11px] uppercase tracking-[0.18em] text-muted">
-              AI Automation Specialist
+              Workflow and AI Automation Specialist
             </p>
           </div>
         </div>
@@ -19,26 +33,37 @@ export function Footer() {
         <ul className="space-y-3 text-xs text-muted">
           <li>
             <a
-              href="mailto:johnwilfreddcurimo@gmail.com"
+              href={`mailto:${EMAIL}`}
               className="flex items-center gap-3 transition-colors hover:text-ink"
             >
-              <MailIcon className="h-4 w-4 text-olive" />
-              johnwilfreddcurimo@gmail.com
+              <MailIcon className="h-4 w-4 shrink-0 text-olive" />
+              {EMAIL}
             </a>
           </li>
           <li>
             <a
-              href="https://linkedin.com/in/john-wilfredd-curimo"
+              href={LINKEDIN_URL}
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 transition-colors hover:text-ink"
             >
-              <LinkedInIcon className="h-4 w-4 text-olive" />
+              <LinkedInIcon className="h-4 w-4 shrink-0 text-olive" />
               linkedin.com/in/john-wilfredd-curimo
             </a>
           </li>
+          <li>
+            <a
+              href={UPWORK_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-3 transition-colors hover:text-ink"
+            >
+              <UpworkIcon className="h-4 w-4 shrink-0 text-olive" />
+              Upwork Profile
+            </a>
+          </li>
           <li className="flex items-center gap-3">
-            <PinIcon className="h-4 w-4 text-olive" />
+            <PinIcon className="h-4 w-4 shrink-0 text-olive" />
             Philippines
           </li>
         </ul>
@@ -49,18 +74,27 @@ export function Footer() {
           </p>
           <div className="mt-4 flex gap-3 sm:justify-end">
             <a
-              href="https://linkedin.com/in/john-wilfredd-curimo"
+              href={LINKEDIN_URL}
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-line text-muted transition-colors hover:border-olive hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-line text-muted transition-all hover:border-olive hover:text-ink active:scale-90"
             >
               <LinkedInIcon className="h-4 w-4" />
             </a>
             <a
-              href="mailto:johnwilfreddcurimo@gmail.com"
+              href={UPWORK_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Upwork"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-line text-muted transition-all hover:border-olive hover:text-ink active:scale-90"
+            >
+              <UpworkIcon className="h-4 w-4" />
+            </a>
+            <a
+              href={`mailto:${EMAIL}`}
               aria-label="Email"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-line text-muted transition-colors hover:border-olive hover:text-ink"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-line text-muted transition-all hover:border-olive hover:text-ink active:scale-90"
             >
               <MailIcon className="h-4 w-4" />
             </a>

@@ -15,7 +15,7 @@ export function ThemeToggle() {
     <button
       onClick={toggle}
       aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
-      className="shrink-0 rounded-full border border-line p-2.5 text-muted transition-colors hover:text-ink hover:border-olive cursor-pointer"
+      className="shrink-0 cursor-pointer rounded-full border border-line p-2.5 text-muted transition-all hover:border-olive hover:text-ink active:scale-90"
     >
       {dark ? <SunIcon /> : <MoonIcon />}
     </button>

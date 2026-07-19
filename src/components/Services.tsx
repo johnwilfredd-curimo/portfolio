@@ -4,7 +4,7 @@ const services = [
   {
     icon: ZapIcon,
     title: 'Workflow Automation',
-    desc: 'End-to-end automations with Zapier, Make, and n8n that eliminate repetitive work.',
+    desc: 'End-to-end automations with Zapier, Make, n8n, and GoHighLevel that eliminate repetitive work.',
   },
   {
     icon: SparkleIcon,

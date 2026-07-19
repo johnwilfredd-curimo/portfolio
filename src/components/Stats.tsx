@@ -1,8 +1,8 @@
-import { LayersIcon, MonitorIcon, StarIcon } from './icons'
+import { LayersIcon, MonitorIcon, PlugIcon } from './icons'
 
 const stats = [
   { icon: MonitorIcon, value: '10+', label: 'Automation Projects Built' },
-  { icon: StarIcon, value: '5+', label: 'Years Professional Experience' },
+  { icon: PlugIcon, value: '15+', label: 'Apps & APIs Integrated' },
   { icon: LayersIcon, value: '4', label: 'Automation Platforms' },
 ]
 

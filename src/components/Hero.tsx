@@ -26,15 +26,17 @@ export function Hero() {
     <header className="relative">
       <div className="flex items-center gap-6 pt-10">
         <p className="text-[11px] font-medium uppercase tracking-[0.28em]">
-          AI Automation Specialist &amp; Electronics Engineer
+          Workflow and AI Automation Specialist &amp; Electronics Engineer
         </p>
         <div className="h-px flex-1 bg-line" />
         <ThemeToggle />
       </div>
 
       <div className="relative mt-8">
-        <h1 className="font-display text-[clamp(3rem,15.5vw,12.5rem)] font-extrabold uppercase leading-[0.9] tracking-tight">
-          Portfolio
+        <h1 className="font-display text-[clamp(2.4rem,9vw,7.25rem)] font-extrabold uppercase leading-[0.95] tracking-tight">
+          John Wilfredd
+          <br />
+          Curimo
         </h1>
 
         <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:gap-16">
@@ -44,10 +46,10 @@ export function Hero() {
               <em className="text-olive">scale businesses</em>.
             </h2>
             <p className="mt-6 text-sm leading-relaxed text-muted">
-              Hi, I'm John Wilfredd Curimo — an AI Automation Specialist and Electronics
-              Engineer. I help businesses eliminate repetitive work by designing reliable,
-              scalable workflows with Make, n8n, Zapier, and GoHighLevel, augmented with
-              Python, API integrations, and AI-powered logic.
+              Hi, I'm a Workflow and AI Automation Specialist and Electronics Engineer. I
+              help businesses eliminate repetitive work by designing reliable, scalable
+              workflows with Make, n8n, Zapier, and GoHighLevel, augmented with Python, API
+              integrations, and AI-powered logic.
             </p>
           </div>
 
