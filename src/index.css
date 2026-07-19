@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #f6f2eb;
+  --surface: #efe9de;
+  --surface-2: #e8e0d2;
+  --ink: #201d19;
+  --muted: #6b655c;
+  --olive: #7c7e52;
+  --olive-deep: #8f915f;
+  --line: #dcd5c8;
+}
+
+.dark {
+  --bg: #191713;
+  --surface: #221f1a;
+  --surface-2: #2a261f;
+  --ink: #ede8df;
+  --muted: #a39b8e;
+  --olive: #a8aa78;
+  --olive-deep: #6f7147;
+  --line: #35312a;
+}
+
+@theme inline {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-olive: var(--olive);
+  --color-olive-deep: var(--olive-deep);
+  --color-line: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
