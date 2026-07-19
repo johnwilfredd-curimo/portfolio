@@ -3,8 +3,7 @@ import { LinkedInIcon, MailIcon, PinIcon } from './icons'
 
 const EMAIL = 'johnwilfreddcurimo.freelance@gmail.com'
 const LINKEDIN_URL = 'https://linkedin.com/in/john-wilfredd-curimo'
-// TODO: replace with the real Upwork profile URL
-const UPWORK_URL = '#'
+const UPWORK_URL = 'https://www.upwork.com/freelancers/~019045ea45c7cb58d4'
 
 function UpworkIcon({ className = 'w-4 h-4' }: { className?: string }) {
   return (
