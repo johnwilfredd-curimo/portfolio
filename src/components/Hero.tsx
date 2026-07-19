@@ -8,9 +8,9 @@ function Stamp() {
         <defs>
           <path id="stamp-circle" d="M 50,50 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" />
         </defs>
-        <text className="fill-muted" fontSize="8.2" letterSpacing="2.2">
-          <textPath href="#stamp-circle">
-            THOUGHTFUL AUTOMATION · MEANINGFUL IMPACT ·
+        <text className="fill-muted" fontSize="8.2" letterSpacing="1.5">
+          <textPath href="#stamp-circle" textLength="236" lengthAdjust="spacing">
+            SMART AUTOMATION · SCALABLE WORKFLOWS ·
           </textPath>
         </text>
       </svg>
