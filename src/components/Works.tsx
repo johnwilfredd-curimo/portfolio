@@ -67,6 +67,12 @@ const allProjects = [
     img: `${base}projects/n8n-receptionist.webp`,
     desc: 'Vapi voice agent integrated with Google Calendar and Airtable to handle call answering and appointment scheduling for a multi-specialty health clinic scenario.',
   },
+  {
+    tool: 'n8n',
+    name: 'Sales Data Pipeline',
+    img: `${base}projects/n8n-sales-pipeline.webp`,
+    desc: 'n8n Academy Foundations course project: a branching pipeline that fetches 50 sales orders over authenticated HTTP (Header Auth), splits and transforms them with calculated order totals, then fans out to three branches — a full order feed, regional revenue summaries (filter delivered → summarize → rename keys), and a generated CSV report — each posted to warehouse endpoints.',
+  },
 ]
 
 export function Works() {
@@ -110,7 +116,7 @@ export function Works() {
       {showAll && (
         <div id="all-projects" className="mt-10 rounded-xl border border-line bg-surface p-6 sm:p-8">
           <p className="text-xs italic text-muted">
-            Self-directed builds developed from real-world client briefs; not commissioned client
+            Self-directed practice and course/certification projects; not commissioned client
             work.
           </p>
           <ul className="mt-6 space-y-7">
