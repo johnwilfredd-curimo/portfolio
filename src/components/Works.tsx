@@ -89,7 +89,7 @@ const allProjects = [
     tool: 'n8n',
     name: 'AI Customer Feedback Pipeline',
     img: `${base}projects/n8n-feedback-pipeline.webp`,
-    desc: 'n8n Academy N8N103 course project: an AI pipeline that fetches customer feedback, classifies sentiment, topic, and urgency with a Structured Output Parser (schema-validated JSON + retry on failure), and generates a classification-aware reply — using a mixed-model Groq setup (smaller model for classification, larger for generation) plus an AI agent with HTTP Request tools.',
+    desc: 'n8n Academy N8N103 course project: an AI pipeline that fetches customer feedback, classifies sentiment, topic, and urgency with a Structured Output Parser (schema-validated JSON + retry on failure), and generates a classification-aware reply — using a mixed-model Groq setup (smaller model for classification, larger for generation).',
   },
 ]
 
