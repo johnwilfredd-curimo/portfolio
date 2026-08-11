@@ -1,7 +1,7 @@
 import { LayersIcon, MonitorIcon, PlugIcon } from './icons'
 
 const stats = [
-  { icon: MonitorIcon, value: '10+', label: 'Automation Projects Built' },
+  { icon: MonitorIcon, value: '12+', label: 'Automation Projects Built' },
   { icon: PlugIcon, value: '15+', label: 'Apps & APIs Integrated' },
   { icon: LayersIcon, value: '4', label: 'Automation Platforms' },
 ]

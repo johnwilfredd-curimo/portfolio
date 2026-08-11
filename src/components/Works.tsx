@@ -73,6 +73,24 @@ const allProjects = [
     img: `${base}projects/n8n-sales-pipeline.webp`,
     desc: 'n8n Academy Foundations course project: a branching pipeline that fetches 50 sales orders over authenticated HTTP (Header Auth), splits and transforms them with calculated order totals, then fans out to three branches — a full order feed, regional revenue summaries (filter delivered → summarize → rename keys), and a generated CSV report — each posted to warehouse endpoints.',
   },
+  {
+    tool: 'n8n',
+    name: 'API Integration Pipeline',
+    img: `${base}projects/n8n-api-pipeline.webp`,
+    desc: 'n8n Academy N8N102 course project: fetches paginated orders and customer records in parallel and merges them on customer_id to enrich each order, then routes by subscription tier and region with IF and Switch nodes — batching enterprise orders to a priority queue via Loop Over Items, with Retry On Fail and error-output fallbacks for resilient API handling.',
+  },
+  {
+    tool: 'n8n',
+    name: 'Order Webhook Processing System',
+    img: `${base}projects/n8n-order-webhook.webp`,
+    desc: 'n8n Academy N8N102 course project: a webhook-driven pipeline that receives orders in real time over an authenticated (Header Auth) webhook, validates required fields and returns proper 200/400/401 responses, persists records to a Data Table, and delegates to a reusable sub-workflow that de-duplicates, inserts, calls the processing API, and updates order status.',
+  },
+  {
+    tool: 'n8n',
+    name: 'AI Customer Feedback Pipeline',
+    img: `${base}projects/n8n-feedback-pipeline.webp`,
+    desc: 'n8n Academy N8N103 course project: an AI pipeline that fetches customer feedback, classifies sentiment, topic, and urgency with a Structured Output Parser (schema-validated JSON + retry on failure), and generates a classification-aware reply — using a mixed-model Groq setup (smaller model for classification, larger for generation) plus an AI agent with HTTP Request tools.',
+  },
 ]
 
 export function Works() {

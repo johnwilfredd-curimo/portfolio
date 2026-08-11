@@ -19,7 +19,7 @@ const entries = [
   },
   {
     initials: 'ECE',
-    text: "BS Electronics & Communications Engineering (Dean's Lister). Machine Learning Specialization (Stanford Online). Classification Methods with ML (MathWorks). n8n Foundations: Essentials (n8n Academy).",
+    text: "BS Electronics & Communications Engineering (Dean's Lister). Machine Learning Specialization (Stanford Online). Classification Methods with ML (MathWorks). n8n Foundations — Essentials, Integrations & AI/Best Practices (n8n Academy).",
     name: 'Education & Certifications',
     org: 'Technological Institute of the Philippines',
   },

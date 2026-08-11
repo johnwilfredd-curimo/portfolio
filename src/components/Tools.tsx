@@ -31,6 +31,7 @@ const tools: Tool[] = [
   { name: 'GoHighLevel', initials: 'GH' },
   { name: 'OpenAI API', initials: 'AI' },
   { name: 'Claude API', icon: siClaude },
+  { name: 'Groq', initials: 'GQ' },
   { name: 'Vapi', initials: 'V' },
   { name: 'Python', icon: siPython },
   { name: 'C/C++', icon: siCplusplus },
