@@ -2,7 +2,7 @@ import { MailIcon } from './icons'
 
 export function Cta() {
   return (
-    <section className="mt-20 rounded-2xl bg-olive-deep px-8 py-9 text-[#f6f2eb] sm:px-10">
+    <section id="contact" className="mt-20 scroll-mt-24 rounded-2xl bg-olive-deep px-8 py-9 text-[#f6f2eb] sm:px-10">
       <div className="flex flex-col items-start gap-6 lg:flex-row lg:items-center">
         <div className="flex items-center gap-5">
           <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#f6f2eb]/40">

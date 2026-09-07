@@ -1,5 +1,4 @@
 import { PinIcon } from './icons'
-import { ThemeToggle } from './ThemeToggle'
 
 function Stamp() {
   return (
@@ -23,13 +22,12 @@ function Stamp() {
 
 export function Hero() {
   return (
-    <header className="relative">
+    <header id="top" className="relative scroll-mt-24">
       <div className="flex items-center gap-6 pt-10">
         <p className="text-[11px] font-medium uppercase tracking-[0.28em]">
           Workflow and AI Automation Specialist &amp; Electronics Engineer
         </p>
         <div className="h-px flex-1 bg-line" />
-        <ThemeToggle />
       </div>
 
       <div className="relative mt-8">

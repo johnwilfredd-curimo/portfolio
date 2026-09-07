@@ -25,27 +25,32 @@ const services = [
 
 export function Services() {
   return (
-    <aside>
-      <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">Services</h3>
-      <ul className="mt-8 space-y-7">
+    <section id="services" className="mt-20 scroll-mt-24">
+      <div className="flex items-center gap-6">
+        <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">Services</h3>
+        <div className="h-px flex-1 bg-line" />
+        <a
+          href="#tools"
+          className="flex shrink-0 items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted transition-colors hover:text-ink"
+        >
+          And more <ArrowRightIcon className="h-4 w-4" />
+        </a>
+      </div>
+
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {services.map(({ icon: Icon, title, desc }) => (
-          <li key={title} className="flex gap-4">
+          <article
+            key={title}
+            className="flex flex-col rounded-xl border border-line bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-olive text-bg">
               <Icon className="h-5 w-5" />
             </span>
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-wide">{title}</p>
-              <p className="mt-1 text-xs leading-relaxed text-muted">{desc}</p>
-            </div>
-          </li>
+            <p className="mt-5 text-sm font-semibold uppercase tracking-wide">{title}</p>
+            <p className="mt-2 text-xs leading-relaxed text-muted">{desc}</p>
+          </article>
         ))}
-      </ul>
-      <a
-        href="#tools"
-        className="mt-8 flex items-center justify-end gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted transition-colors hover:text-ink"
-      >
-        And more <ArrowRightIcon className="h-4 w-4" />
-      </a>
-    </aside>
+      </div>
+    </section>
   )
 }

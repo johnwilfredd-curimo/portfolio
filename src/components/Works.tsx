@@ -97,7 +97,7 @@ export function Works() {
   const [showAll, setShowAll] = useState(false)
 
   return (
-    <div>
+    <div id="work" className="mt-20 scroll-mt-24">
       <div className="flex items-center gap-6">
         <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">
           Selected Works

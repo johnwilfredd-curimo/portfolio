@@ -11,7 +11,7 @@ const steps = [
 
 export function Process() {
   return (
-    <section className="mt-20">
+    <section id="process" className="mt-20 scroll-mt-24">
       <div className="flex items-center gap-6">
         <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">My Process</h3>
         <div className="h-px flex-1 bg-line" />

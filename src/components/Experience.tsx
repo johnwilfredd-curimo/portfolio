@@ -27,7 +27,7 @@ const entries = [
 
 export function Experience() {
   return (
-    <section className="mt-20">
+    <section id="experience" className="mt-20 scroll-mt-24">
       <div className="flex items-center gap-6">
         <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">
           Experience &amp; Credentials
