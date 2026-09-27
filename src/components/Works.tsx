@@ -100,7 +100,7 @@ export function Works() {
     <div id="work" className="mt-20 scroll-mt-24">
       <div className="flex items-center gap-6">
         <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-olive">
-          Selected Works
+          Automation Projects
         </h3>
         <div className="h-px flex-1 bg-line" />
         <button

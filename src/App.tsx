@@ -2,6 +2,7 @@ import { Cta } from './components/Cta'
 import { Experience } from './components/Experience'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
+import { MlProjects } from './components/MlProjects'
 import { Nav } from './components/Nav'
 import { Process } from './components/Process'
 import { Reveal } from './components/Reveal'
@@ -22,6 +23,9 @@ function App() {
         <main>
           <Reveal>
             <Works />
+          </Reveal>
+          <Reveal>
+            <MlProjects />
           </Reveal>
           <Reveal>
             <Services />

@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { ThemeToggle } from './ThemeToggle'
 
 const links = [
-  { id: 'work', label: 'Work' },
+  { id: 'work', label: 'Automations' },
+  { id: 'ml', label: 'Machine Learning' },
   { id: 'services', label: 'Services' },
   { id: 'tools', label: 'Tools' },
   { id: 'process', label: 'Process' },
